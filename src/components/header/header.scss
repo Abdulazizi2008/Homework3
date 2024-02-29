@@ -1,0 +1,144 @@
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #2c2d2e;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+}
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  .nav-imem2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #2c2d2e;
+  }
+}
+.nav-item:hover {
+  color: #ef7c00;
+}
+.nav-imem2:hover {
+  color: #ef7c00;
+}
+.menu {
+  border: 0;
+  background: transparent;
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 1440px) {
+  /* // lg */
+}
+
+@media (max-width: 976px) {
+  nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+
+  .open .nav-items {
+    left: 0;
+  }
+
+  .open {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+
+  .open .nav-items {
+    left: 0;
+  }
+
+  .open {
+    box-shadow: none;
+  }
+}
+@media (max-width: 480px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 104px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+
+  .open .nav-items {
+    left: 0;
+  }
+
+  .open {
+    box-shadow: none;
+  }
+}
