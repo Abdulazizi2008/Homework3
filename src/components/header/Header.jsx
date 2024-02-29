@@ -6,7 +6,7 @@ function Header() {
       <div className="container">
         <nav>
           <a href="#" className="logo">
-            <img src="./public/images/lll.png" alt="logo" />
+            <img src="/images/lll.png" alt="logo" />
           </a>
           <div className="nav-items">
             <a className="nav-item">
