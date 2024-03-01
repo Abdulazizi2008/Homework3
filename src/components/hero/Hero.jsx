@@ -115,7 +115,7 @@ function Hero() {
         </div>
         <div className="par13">
           <form>
-            <label htmlFor="name">
+            <label htmlFor="rerr">
               <svg
                 width="14"
                 height="15"
@@ -132,7 +132,7 @@ function Hero() {
             <input type="text" name="name" id="rerr" placeholder="Ваше имя" />
           </form>
           <form>
-            <label htmlFor="name">
+            <label htmlFor="rerr">
               <svg
                 width="15"
                 height="16"
