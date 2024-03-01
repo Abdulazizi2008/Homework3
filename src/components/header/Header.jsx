@@ -1,5 +1,9 @@
 import "./header.scss";
 
+const navbar = () => {
+  document.body.classList.toggle("open");
+};
+
 function Header() {
   return (
     <header>
@@ -124,9 +128,10 @@ function Header() {
               </svg>
             </a>
           </div>
-          <button class="menu">
-            <img src="./public/images/ggg.svg" alt="" />
+          <button onClick={navbar} className="menu">
+            <img src="/images/ggg.svg" alt="" />
           </button>
+          ;
           <div className="nav-items2">
             <a href="#" className="nav-imem2">
               RU
